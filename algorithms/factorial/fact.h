@@ -1,4 +1,4 @@
 // Find factorial
-int fact(int);
+long fact(long);
 // Optimized version uses tail recursion
-int facttail(int, int);
+long facttail(long, long);

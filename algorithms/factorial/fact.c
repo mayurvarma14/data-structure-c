@@ -1,6 +1,6 @@
 #include "fact.h"
 
-int fact(int n)
+long fact(long n)
 {
     if (n < 0)
     {
@@ -15,7 +15,7 @@ int fact(int n)
         return n * fact(n - 1);
     }
 }
-int facttail(int n, int a)
+long facttail(long n, long a)
 {
     if (n < 0)
     {

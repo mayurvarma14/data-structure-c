@@ -4,9 +4,9 @@
 
 int main()
 {
-    int num;
+    long num;
     printf("Enter a number to find factorial:");
-    scanf("%d", &num);
-    printf("Factorial:%d\n", facttail(num, 1));
+    scanf("%ld", &num);
+    printf("Factorial:%ld\n", facttail(num, 1));
     return 0;
 }

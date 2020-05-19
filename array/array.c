@@ -74,13 +74,13 @@ void array_prepend(Array *a, int value)
 
 int array_pop(Array *a)
 {
-    array_resize(a);
     if (array_is_empty(a))
     {
         error("Array is empty cannot remove element from empty array");
     }
     a->size--;
     int element = *(a->data + a->size);
+    array_resize(a);
     return element;
 }
 

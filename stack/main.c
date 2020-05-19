@@ -21,5 +21,6 @@ int main()
     }
     printf("Peek:%d\n", stack_peek(s));
     stack_print(s);
+    stack_destroy(s);
     return 0;
 }

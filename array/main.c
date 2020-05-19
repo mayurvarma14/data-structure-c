@@ -31,6 +31,7 @@ int main()
     printf("Remove all occurrence 45 from array\n");
     array_remove(a, 45);
     array_print(a);
+    array_destroy(a);
 
     return 0;
 }

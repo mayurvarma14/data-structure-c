@@ -53,6 +53,9 @@ int array_find(Array *, int);
 // while deleting element resize to half
 void array_resize(Array *);
 
+// Delete array
+void array_destroy(Array *);
+
 // Print array, size, capacity
 void array_print(Array *);
 

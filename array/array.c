@@ -146,6 +146,11 @@ void array_resize(Array *a)
         a->data = (int *)realloc(a->data, a->capacity * sizeof(int));
     }
 }
+void array_destroy(Array *a)
+{
+    free(a->data);
+    free(a);
+}
 void array_print(Array *a)
 {
     int capacity = array_size(a);

@@ -153,11 +153,11 @@ void array_destroy(Array *a)
 }
 void array_print(Array *a)
 {
-    int capacity = array_size(a);
-    printf("\nSize:%d\n", array_size(a));
+    int size = array_size(a);
+    printf("\nSize:%d\n", size);
     printf("Capacity:%d\n", array_capacity(a));
     printf("Array elements:\n");
-    for (int i = 0; i < capacity; i++)
+    for (int i = 0; i < size; i++)
     {
         printf("Index:%d   Value:%d\n", i, *(a->data + i));
     }

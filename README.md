@@ -2,6 +2,13 @@
 
 This repository includes data structure and algorithms implemented using C Language
 
+## List of programs
+- Data structure
+  - Array (Dynamic array)
+  - Stack (Dynamic array)
+  - Queue (Circular dynamic array)
+- Other programs
+  - Factorial
 ## Usage example
 
 Change directory to the program you want to build and run `make`

@@ -68,7 +68,7 @@ void stack_resize(Stack *s)
         s->capacity *= 2;
         s->data = (int *)realloc(s->data, sizeof(int) * s->capacity);
     }
-    // Shrink by half if stack size if 1/4 of capacity
+    // Shrink by half if stack size is 1/4 of capacity
     else if (stack_size(s) < s->capacity / 4)
     {
         s->capacity /= 2;

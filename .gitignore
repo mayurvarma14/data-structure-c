@@ -12,3 +12,6 @@
 
 #Ignore object files
 *.o
+
+# Ignode .vscode
+.vscode

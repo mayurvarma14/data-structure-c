@@ -8,6 +8,7 @@ This repository includes data structure and algorithms implemented using C Langu
   - Stack (Dynamic array)
   - Queue (Circular dynamic array)
   - Linked List
+  - Binary Search Tree
 - Other programs
   - Factorial
 ## Usage example
